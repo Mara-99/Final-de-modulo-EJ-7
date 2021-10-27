@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registro</title>
+	<!-- <link rel="stylesheet" href="css\milligram.css"> -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="./est.css">
+
+
+</head>
+
+
+<body>
+
+	<div id="form">
+            
+        <form action="./index.html">
+            <h2 id="titulo"> Registro de usuario </h2>
+            
+            <p>Los campos marcados con (*) Son obligatorios.</p> <br>
+            <label for="contraseña"> Nombre de superheroe*: </label> 
+            <br> 
+            <input type="password" id="contraseña" required> 
+            <br> <br>
+            <label for="mail"> Email*: </label> 
+            <br>
+			<input type="text" name="Correo electrónico/usuario" autocomplete="on" required>
+			<br> <br>
+            <label for="telefono">Telefono*: </label> 
+            <br>
+            <input id="text" name="telefono" autocomplete="on" required> 
+            <br> <br>
+            <label for="fecha"> Fecha de nacimiento*: </label> 
+            <br> 
+            <input type="date" name="fecha" required> 
+            <br> <br>
+            <label>Superheroe favorito:</label>
+            <br>
+            <select name="eleccion">
+                <option name="none" value="nn">Ninguno</option>
+                <option name="supergirl" value="sg">Supergirl</option>
+                <option name="wonderwoman" value="ww">WonderWoman</option>
+                <option name="batman" value="bm">Batman</option>
+                <option name="superman" value="sm">Superman</option>
+                <option name="aquaman" value="am">Aquaman</option>
+                <option name="flash" value="fl">Flash</option>
+            </select>
+            <br> <br>
+            <label for="colorFav">Color favorito para el traje: </label> 
+            <br>
+            <input id="text" name="usuario" autocomplete="off"> 
+            <br> <br>
+            <label>Superpoder*:</label>
+            <br>
+            <textarea name="descripcion" cols="50" rows="30" required></textarea>
+            <br> <br>
+            <label for="text">Participó en otro grupo heroíco?</label>
+            <br>
+            <input type="checkbox" name="Participó" value="" checked />
+            <br> <br>
+        <button name="Registrar" class="btn-green" > Registrar Inscripción</button>
+		
+		</div>
+        </form>
+    </div>  
+
+</body>
+
+</html
